@@ -1,7 +1,7 @@
 # CFPBot (Discord Edition)
 
 A modernization of the original Hubot-based CFPBot into a Discord app with slash commands using `discord.js@14`.
-
+(old repo https://github.com/cfpb/CFPBot)
 ## Features (ported)
 - `/help` – Show available commands.
 - `/searchcfgov query:<text>` – Search consumerfinance.gov (simple site-limited web search).
