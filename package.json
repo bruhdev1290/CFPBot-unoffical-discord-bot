@@ -1,0 +1,20 @@
+{
+  "name": "cfpbot-discord",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Modern Discord bot port of CFPBot (Hubot) with slash commands.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js",
+    "lint": "node -e \"console.log('lint placeholder')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
